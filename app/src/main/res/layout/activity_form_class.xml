@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.FormClass">
+    <include layout="@layout/toolbar"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/bg_drawable"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/lato"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/circle_initials"
+                    android:padding="20dp"
+                    />
+                <TextView
+                    android:id="@+id/teacherName_profile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dike kingsley"
+                    android:textSize="18sp"
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    android:textAlignment="center"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:fontFamily="@font/roboto"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="30dp"/>
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="-30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            app:contentPaddingTop="10dp"
+            app:contentPaddingBottom="10dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                >
+                <RelativeLayout
+                    android:id="@+id/call_teacher_profile"
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    >
+
+                    <ImageButton
+                        android:id="@+id/call_icon"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:clickable="false"
+                        android:layout_centerHorizontal="true"
+                        android:background="@android:color/white"
+                        android:tint="@color/blue"
+                        android:src="@drawable/ic_call" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:clickable="false"
+                        android:text="Call"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:textSize="12sp"
+                        android:textColor="@color/blue"
+                        android:layout_below="@id/call_icon"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/sms_teacher_profile"
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    >
+
+                    <ImageButton
+                        android:id="@+id/sms_icon"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:clickable="false"
+                        android:layout_centerHorizontal="true"
+                        android:background="@android:color/white"
+                        android:tint="@color/blue"
+                        android:src="@drawable/ic_sms" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sms"
+                        android:layout_centerHorizontal="true"
+                        android:clickable="false"
+                        android:layout_marginTop="5dp"
+                        android:textSize="12sp"
+                        android:textColor="@color/blue"
+                        android:layout_below="@id/sms_icon"/>
+                </RelativeLayout>
+
+
+
+                <RelativeLayout
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/email_teacher_profile"
+                    android:clickable="true"
+                    >
+                    <ImageButton
+                        android:id="@+id/email_icon"
+                        android:layout_width="24dp"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/white"
+                        android:clickable="false"
+                        android:layout_centerHorizontal="true"
+                        android:tint="@color/blue"
+                        android:src="@drawable/ic_mail" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/email_icon"
+                        android:layout_marginTop="5dp"
+                        android:clickable="false"
+                        android:layout_centerHorizontal="true"
+                        android:text="Email"
+                        android:textColor="@color/blue"
+                        android:textSize="12sp" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/whatsapp_teacher_profile"
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    >
+                    <ImageButton
+                        android:id="@+id/whatsapp_icon"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_centerHorizontal="true"
+                        android:background="@android:color/white"
+                        android:clickable="false"
+                        android:tint="@color/blue"
+                        android:src="@drawable/ic_whatsapp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="false"
+                        android:layout_below="@id/whatsapp_icon"
+                        android:layout_marginTop="5dp"
+                        android:text="Whatsapp"
+                        android:layout_centerHorizontal="true"
+                        android:textAlignment="center"
+                        android:textSize="12sp"
+                        android:textColor="@color/blue" />
+
+                </RelativeLayout>
+
+
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+    <FrameLayout
+        android:id="@+id/form_class_unempty_state"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/form_class_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="90dp"
+            android:clipToPadding="false">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/form_class_empty_state"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_warning"
+                android:tint="@color/ligth_gray"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Teacher is not a form teacher"
+                android:textColor="@android:color/black"
+                android:layout_margin="20dp"/>
+
+        </LinearLayout>
+    </FrameLayout>
+
+
+
+
+</LinearLayout>
+</LinearLayout>

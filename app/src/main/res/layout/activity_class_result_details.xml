@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EFEFF1"
+    android:id="@+id/class_details_root"
+    tools:context=".Activities.ClassResultDetails">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <include layout="@layout/toolbar"/>
+    </androidx.cardview.widget.CardView>
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    android:background="@drawable/bg_drawable"
+                    android:gravity="center">
+
+                    <TextView
+                        android:id="@+id/class_name_class"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="JS1 A"
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/white"
+                        android:fontFamily="@font/roboto"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        />
+                    <TextView
+                        android:id="@+id/class_form_teacher"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="16sp"
+                        android:textColor="@android:color/white"
+                        android:fontFamily="@font/lato"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="30dp"/>
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="-30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                app:contentPadding="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    >
+                    <RelativeLayout
+                        android:id="@+id/edit_class_btn"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:layout_weight="1"
+                        >
+
+                        <ImageButton
+                            android:id="@+id/call_student_profile"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:clickable="false"
+                            android:background="@android:color/white"
+                            android:tint="@color/blue"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/ic_edit" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:clickable="false"
+                            android:text="Edit"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="5dp"
+                            android:textSize="12sp"
+                            android:textColor="@color/blue"
+                            android:layout_below="@id/call_student_profile"/>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:id="@+id/view_student"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:layout_weight="1"
+                        >
+
+                        <ImageButton
+                            android:id="@+id/ic"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:clickable="false"
+                            android:layout_centerHorizontal="true"
+                            android:background="@android:color/white"
+                            android:tint="@color/blue"
+                            android:src="@drawable/ic_people" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:clickable="false"
+                            android:text="Students"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="5dp"
+                            android:textSize="12sp"
+                            android:textColor="@color/blue"
+                            android:layout_below="@id/ic"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/course_registration"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:layout_weight="1"
+                        >
+
+                        <ImageButton
+                            android:id="@+id/ic2"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:clickable="false"
+                            android:layout_centerHorizontal="true"
+                            android:background="@android:color/white"
+                            android:tint="@color/blue"
+                            android:src="@drawable/ic_library_books" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:clickable="false"
+                            android:text="Registration"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="5dp"
+                            android:textSize="12sp"
+                            android:textColor="@color/blue"
+                            android:layout_below="@id/ic2"/>
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/term_results"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+            </androidx.recyclerview.widget.RecyclerView>
+            <LinearLayout
+                android:id="@+id/class_details_empty_state"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:visibility="gone"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_warning"
+                    android:tint="@color/ligth_gray"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No result found for this class"
+                    android:textColor="@android:color/black"
+                    android:layout_margin="20dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="1dp"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp"
+            android:layout_centerVertical="true">
+    <TextView
+        android:id="@+id/staff_course_name"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="English Language"
+        android:fontFamily="@font/lato"
+        android:textSize="16sp"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:textColor="@android:color/black"/>
+        <TextView
+            android:id="@+id/staff_course_class"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Js1"
+            android:fontFamily="@font/roboto"
+            android:textSize="12sp"
+            android:layout_margin="5dp"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:textColor="@android:color/darker_gray"/>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/staff_view_student"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_toLeftOf="@id/staff_add_student"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:layout_marginEnd="30dp"
+            android:gravity="center"
+            >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_eye_view"
+            android:tint="@color/blue"
+             />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/staff_add_student"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="25dp"
+            android:layout_centerVertical="true"
+            >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_add_black"
+        android:tint="@color/blue"
+        />
+        </LinearLayout>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

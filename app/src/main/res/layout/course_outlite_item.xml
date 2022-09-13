@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <RelativeLayout
+            android:id="@+id/first_term_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            >
+            <LinearLayout
+                android:id="@+id/bg_color"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:orientation="vertical"
+                android:background="@drawable/circle2"
+                android:layout_margin="10dp"
+                android:layout_centerVertical="true"
+                android:gravity="center">
+            <ImageView
+                android:id="@+id/lib_book"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_library_books"
+                android:tint="@color/white"
+                android:backgroundTint="@color/white"
+                />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/topic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/roboto"
+                android:gravity="center_vertical"
+                android:layout_toRightOf="@id/bg_color"
+                android:layout_centerHorizontal="true"
+                android:lines="2"
+                android:ellipsize="end"
+                android:text="Topic"
+                android:layout_marginRight="50dp"
+                android:textColor="@android:color/black"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:id="@+id/comp_bg"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:orientation="vertical"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:layout_toLeftOf="@id/topic"
+                android:layout_margin="10dp"
+                android:background="@drawable/circle2"
+                android:backgroundTint="#F6F7F9"
+               >
+
+                <ImageView
+                    android:id="@+id/course_clear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/ic_more"
+                    android:tint="@android:color/darker_gray" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/ligth_gray"/>
+
+</androidx.cardview.widget.CardView>
