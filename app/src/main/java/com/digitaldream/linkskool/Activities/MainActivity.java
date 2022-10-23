@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onAnimationEnd(Animation animation) {
-                linskoolText.setVisibility(View.VISIBLE);
+                //  linskoolText.setVisibility(View.VISIBLE);
                 final Animation in = new AlphaAnimation(0.0f, 1.0f);
                 in.setDuration(1000);
                 linskoolText.startAnimation(in);
