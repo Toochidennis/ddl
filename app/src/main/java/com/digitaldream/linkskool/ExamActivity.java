@@ -931,7 +931,7 @@ public class ExamActivity extends AppCompatActivity {
             if(!b.optString("answer").equals(null) && !b.optString("answer").isEmpty())
             {
                 String cleaned = b.optString("answer");
-                String correct = b.optString("correct").trim();
+                String correct = b.optString("correct");
                 String content1;
                 View v;
                 if(visible){
