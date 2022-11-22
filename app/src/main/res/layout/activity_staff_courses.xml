@@ -11,7 +11,7 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/all_staff_course_recycler"
         android:layout_width="match_parent"
-        android:background="@color/ligth_gray"
+        android:background="@color/light_gray"
         android:layout_height="wrap_content">
 
     </androidx.recyclerview.widget.RecyclerView>
@@ -27,7 +27,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_warning"
-            android:tint="@color/ligth_gray"
+            android:tint="@color/light_gray"
             />
         <TextView
             android:layout_width="wrap_content"

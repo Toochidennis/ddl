@@ -17,7 +17,7 @@
         android:layout_height="100dp"
         >
         <LinearLayout
-            android:id="@+id/date_container"
+            android:id="@+id/student_count_container"
             android:layout_width="80dp"
             android:layout_height="match_parent"
             android:layout_marginRight="10dp"
@@ -39,7 +39,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:gravity="center_vertical"
-            android:layout_toRightOf="@id/date_container"
+            android:layout_toRightOf="@id/student_count_container"
             android:padding="5dp"
             >
         <TextView
@@ -50,7 +50,7 @@
             android:maxLines="2"
             android:ellipsize="end"
             android:textStyle="bold"
-            android:layout_toRightOf="@id/date_container"
+            android:layout_toRightOf="@id/student_count_container"
             android:fontFamily="@font/open_sans"
             android:textSize="13sp"
             android:textColor="#1d1d1d"

@@ -10,10 +10,8 @@
     app:cardElevation="0.5dp"
     xmlns:android="http://schemas.android.com/apk/res/android">
 <RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-   >
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:id="@+id/class_counter_bg"
@@ -39,10 +37,9 @@
         android:fontFamily="@font/roboto"
         android:textSize="14sp"
         android:textColor="@android:color/black"
-        android:layout_toRightOf="@id/class_counter_bg"
+        android:layout_toEndOf="@id/class_counter_bg"
         android:layout_centerVertical="true"
-        android:layout_marginLeft="20dp"
-        />
+        android:layout_marginStart="20dp" />
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

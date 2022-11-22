@@ -32,7 +32,7 @@
                 android:textColor="@color/orange"
                 android:textStyle="bold"
                 android:textSize="18sp"
-                android:layout_marginRight="10dp"/>
+                android:layout_marginEnd="10dp"/>
             <TextView
                 android:fontFamily="sans-serif-condensed"
                 android:id="@+id/exam_year"
@@ -57,12 +57,12 @@
                 android:id="@+id/exam"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:drawableLeft="@drawable/watch1"
                 android:textColor="@color/orange"
                 android:textSize="20sp"
                 android:layout_centerInParent="true"
                 android:layout_gravity="center_vertical"
-                android:gravity="center"/>
+                android:gravity="center"
+                app:drawableLeftCompat="@drawable/watch1" />
         </RelativeLayout>
 
     </com.google.android.material.appbar.AppBarLayout>

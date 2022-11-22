@@ -44,7 +44,7 @@
                 android:textColor="@color/redH"
                 android:layout_alignParentEnd="true"
                 android:layout_centerVertical="true"
-                android:layout_marginRight="7dp"
+                android:layout_marginEnd="7dp"
                 />
 
         </RelativeLayout>

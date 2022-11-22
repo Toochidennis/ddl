@@ -1,16 +1,14 @@
 <component name="libraryTable">
   <library name="Gradle: io.github.luizgrp.sectionedrecyclerviewadapter:sectionedrecyclerviewadapter:1.2.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/2dfdaa15ecffeb98d46f559d338fb148/transformed/jetified-sectionedrecyclerviewadapter-1.2.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/2dfdaa15ecffeb98d46f559d338fb148/transformed/jetified-sectionedrecyclerviewadapter-1.2.0/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/14ac681c29c361fa285d9b3aa155d412/transformed/jetified-sectionedrecyclerviewadapter-1.2.0/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/14ac681c29c361fa285d9b3aa155d412/transformed/jetified-sectionedrecyclerviewadapter-1.2.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-all/caches/transforms-3/345579c18c62ef155b58cce1eb920c5c/transformed/jetified-sectionedrecyclerviewadapter-1.2.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-all/caches/transforms-3/345579c18c62ef155b58cce1eb920c5c/transformed/jetified-sectionedrecyclerviewadapter-1.2.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.luizgrp.sectionedrecyclerviewadapter/sectionedrecyclerviewadapter/1.2.0/4f93bad5680d3b2d948dd7cac89124cd45bf8706/sectionedrecyclerviewadapter-1.2.0-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-all/caches/modules-2/files-2.1/io.github.luizgrp.sectionedrecyclerviewadapter/sectionedrecyclerviewadapter/1.2.0/4f93bad5680d3b2d948dd7cac89124cd45bf8706/sectionedrecyclerviewadapter-1.2.0-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.luizgrp.sectionedrecyclerviewadapter/sectionedrecyclerviewadapter/1.2.0/2c700bf1b10fb804548e3e256348b6f32b9f8f20/sectionedrecyclerviewadapter-1.2.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-7.0.2-all/caches/modules-2/files-2.1/io.github.luizgrp.sectionedrecyclerviewadapter/sectionedrecyclerviewadapter/1.2.0/2c700bf1b10fb804548e3e256348b6f32b9f8f20/sectionedrecyclerviewadapter-1.2.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

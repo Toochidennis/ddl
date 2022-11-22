@@ -43,7 +43,7 @@
                 android:layout_height="wrap_content"
                 android:text="Students"
                 android:textStyle="bold"
-                android:fontFamily="@font/lato"
+                android:fontFamily="@font/la_to"
                 android:textSize="18sp"
                 android:textColor="@android:color/white"/>
             </LinearLayout>

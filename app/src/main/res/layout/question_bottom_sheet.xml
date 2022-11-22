@@ -51,9 +51,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_account"
-            android:tint="@color/gray"
             android:layout_gravity="center_vertical"
-            />
+            app:tint="@color/gray" />
         <TextView
             android:id="@+id/user"
             android:layout_width="wrap_content"
@@ -80,8 +79,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_supervisor_account"
-                android:tint="@color/gray"
-                />
+                app:tint="@color/gray" />
             <TextView
                 android:id="@+id/access_text"
                 android:layout_width="wrap_content"
@@ -95,8 +93,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_arrow_drop"
-                android:tint="@color/gray"
-                />
+                app:tint="@color/gray" />
         </LinearLayout>
 
     </LinearLayout>
@@ -121,7 +118,7 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="0.5dp"
-            android:background="@color/ligth_gray"/>
+            android:background="@color/light_gray"/>
         <Button
             android:id="@+id/add"
             android:layout_width="100dp"

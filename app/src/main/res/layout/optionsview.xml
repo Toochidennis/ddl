@@ -7,10 +7,12 @@
     android:layout_marginTop="-20dp"
     android:layout_height="match_parent"
     android:id="@+id/optlay">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:orientation="vertical"
         android:layout_height="wrap_content">
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -19,8 +21,8 @@
             android:id="@+id/numbering"
             android:textSize="18sp"
             android:textColor="@color/black" />
+
         <RadioGroup
-            xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="fill_parent"
             android:id="@+id/question"
             android:layout_marginTop="15dp"
@@ -28,6 +30,7 @@
             android:orientation="vertical"
             android:textColor="@color/black">
         </RadioGroup>
+
         <LinearLayout
             android:id="@+id/qd"
             android:layout_width="match_parent"

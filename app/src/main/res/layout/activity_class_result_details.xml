@@ -16,19 +16,19 @@
     </androidx.cardview.widget.CardView>
 
     <ScrollView
-        xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:fillViewport="true"
-        >
+        android:fillViewport="true">
+
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
+
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                >
+                android:layout_height="wrap_content">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="120dp"
@@ -47,8 +47,8 @@
                         android:textColor="@android:color/white"
                         android:fontFamily="@font/roboto"
                         android:layout_gravity="center"
-                        android:layout_marginTop="10dp"
-                        />
+                        android:layout_marginTop="10dp" />
+
                     <TextView
                         android:id="@+id/class_form_teacher"
                         android:layout_width="wrap_content"
@@ -56,13 +56,14 @@
                         android:text=""
                         android:textSize="16sp"
                         android:textColor="@android:color/white"
-                        android:fontFamily="@font/lato"
+                        android:fontFamily="@font/la_to"
                         android:layout_gravity="center"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="30dp"/>
 
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
+
             <androidx.cardview.widget.CardView
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
@@ -72,19 +73,21 @@
                 android:layout_gravity="center_horizontal"
                 android:layout_marginBottom="10dp"
                 app:contentPadding="10dp">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
-                    android:gravity="center"
-                    >
+                    android:gravity="center">
+
                     <RelativeLayout
                         android:id="@+id/edit_class_btn"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:clickable="true"
                         android:layout_weight="1"
-                        >
+                        android:focusable="true">
+
 
                         <ImageButton
                             android:id="@+id/call_student_profile"
@@ -95,6 +98,7 @@
                             android:tint="@color/blue"
                             android:layout_centerHorizontal="true"
                             android:src="@drawable/ic_edit" />
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -106,13 +110,14 @@
                             android:textColor="@color/blue"
                             android:layout_below="@id/call_student_profile"/>
                     </RelativeLayout>
+
                     <RelativeLayout
                         android:id="@+id/view_student"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:clickable="true"
                         android:layout_weight="1"
-                        >
+                        android:focusable="true">
 
                         <ImageButton
                             android:id="@+id/ic"
@@ -123,6 +128,7 @@
                             android:background="@android:color/white"
                             android:tint="@color/blue"
                             android:src="@drawable/ic_people" />
+
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -141,7 +147,7 @@
                         android:layout_height="wrap_content"
                         android:clickable="true"
                         android:layout_weight="1"
-                        >
+                        android:focusable="true">
 
                         <ImageButton
                             android:id="@+id/ic2"
@@ -156,12 +162,42 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:clickable="false"
-                            android:text="Registration"
+                            android:text="Register"
                             android:layout_centerHorizontal="true"
                             android:layout_marginTop="5dp"
                             android:textSize="12sp"
                             android:textColor="@color/blue"
                             android:layout_below="@id/ic2"/>
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/course_attendance"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:layout_weight="1"
+                        android:focusable="true">
+
+                        <ImageButton
+                            android:id="@+id/ic3"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:clickable="false"
+                            android:layout_centerHorizontal="true"
+                            android:background="@android:color/white"
+                            android:tint="@color/blue"
+                            android:src="@drawable/ic_attendance" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:clickable="false"
+                            android:text="Attendance"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="5dp"
+                            android:textSize="12sp"
+                            android:textColor="@color/blue"
+                            android:layout_below="@id/ic3"/>
                     </RelativeLayout>
 
 
@@ -174,6 +210,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 >
+
 
             </androidx.recyclerview.widget.RecyclerView>
             <LinearLayout
@@ -188,8 +225,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/ic_warning"
-                    android:tint="@color/ligth_gray"
-                    />
+                    app:tint="@color/light_gray" />
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

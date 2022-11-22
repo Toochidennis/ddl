@@ -37,8 +37,7 @@
                         android:layout_height="wrap_content"
                         android:src="@drawable/ic_delete_"
                         android:layout_margin="5dp"
-                        android:tint="@color/gray"
-                        />
+                        app:tint="@color/gray" />
                 </LinearLayout>
                 <ImageView
                     android:id="@+id/option_pic"
@@ -54,15 +53,14 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                >
-
+                android:orientation="horizontal">
 
                 <RadioButton
                     android:id="@+id/point"
                     android:layout_width="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_height="wrap_content" />
+
                 <EditText
                     android:id="@+id/option_field"
                     android:layout_width="0dp"
@@ -79,7 +77,7 @@
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:gravity="center"
-                    android:layout_marginRight="5dp"
+                    android:layout_marginEnd="5dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginBottom="5dp"
                     android:background="@drawable/border"
@@ -101,7 +99,7 @@
                     android:layout_gravity="center_vertical"
                     android:background="@drawable/border"
                     android:orientation="vertical"
-                    android:layout_marginRight="6dp"
+                    android:layout_marginEnd="6dp"
                     android:visibility="gone"
                     >
 
@@ -120,7 +118,7 @@
                     android:layout_gravity="center_vertical"
                     android:background="@drawable/border"
                     android:orientation="vertical"
-                    android:layout_marginRight="6dp"
+                    android:layout_marginEnd="6dp"
                     >
 
                     <ImageView
@@ -128,8 +126,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:src="@drawable/ic_more"
-                        android:tint="@color/gray"
-                        />
+                        app:tint="@color/gray" />
                 </LinearLayout>
             </LinearLayout>
 

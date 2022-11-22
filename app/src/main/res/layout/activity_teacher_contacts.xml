@@ -45,7 +45,7 @@
             android:layout_height="wrap_content"
             android:text="Teachers"
             android:textStyle="bold"
-            android:fontFamily="@font/lato"
+            android:fontFamily="@font/la_to"
             android:layout_gravity="center_vertical"
             android:textSize="18sp"
             android:textColor="@android:color/white"/>
@@ -111,7 +111,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:src="@drawable/ic_warning"
-                    android:tint="@color/ligth_gray"
+                    android:tint="@color/light_gray"
                     android:layout_marginBottom="50dp" />
 
 

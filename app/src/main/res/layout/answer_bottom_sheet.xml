@@ -64,7 +64,7 @@
     android:id="@+id/reply_container"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/ligth_gray"
+    android:background="@color/light_gray"
     android:visibility="gone"
     android:orientation="vertical">
     <TextView
@@ -145,7 +145,7 @@ You are right with your guess that the problem is your content values. You shoul
             android:orientation="vertical"
             android:gravity="center"
             android:padding="10dp"
-            android:background="@color/ligth_gray"
+            android:background="@color/light_gray"
             >
 
             <TextView
@@ -164,7 +164,7 @@ You are right with your guess that the problem is your content values. You shoul
         <View
             android:layout_width="match_parent"
             android:layout_height="0.5dp"
-            android:background="@color/ligth_gray"/>
+            android:background="@color/light_gray"/>
         <LinearLayout
             android:id="@+id/util_container"
             android:layout_width="match_parent"
@@ -198,7 +198,7 @@ You are right with your guess that the problem is your content values. You shoul
         <View
             android:layout_width="match_parent"
             android:layout_height="0.5dp"
-            android:background="@color/ligth_gray"/>
+            android:background="@color/light_gray"/>
 <LinearLayout
     android:id="@+id/editor_container"
     android:layout_width="match_parent"

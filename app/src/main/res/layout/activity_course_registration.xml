@@ -49,7 +49,7 @@
                 android:text=""
                 android:textSize="16sp"
                 android:textColor="@android:color/white"
-                android:fontFamily="@font/lato"
+                android:fontFamily="@font/la_to"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="30dp"/>
@@ -65,19 +65,20 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginBottom="10dp"
         app:contentPadding="10dp">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:gravity="center"
-            >
+            android:gravity="center">
+
             <RelativeLayout
                 android:id="@+id/copy_reg"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:clickable="true"
                 android:layout_weight="1"
-                >
+                android:focusable="true">
 
                 <ImageButton
                     android:id="@+id/call_student_profile"
@@ -88,6 +89,7 @@
                     android:tint="@color/blue"
                     android:layout_centerHorizontal="true"
                     android:src="@drawable/ic_copy" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -107,7 +109,7 @@
                 android:layout_height="wrap_content"
                 android:clickable="true"
                 android:layout_weight="1"
-                >
+                android:focusable="true">
 
                 <ImageButton
                     android:id="@+id/ic2"
@@ -118,6 +120,7 @@
                     android:background="@android:color/white"
                     android:tint="@color/blue"
                     android:src="@drawable/ic_library_books" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -132,19 +135,20 @@
 
 
         </LinearLayout>
+
     </androidx.cardview.widget.CardView>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/students"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/toolbar"
-        >
+        android:layout_below="@id/toolbar">
 
     </androidx.recyclerview.widget.RecyclerView>
 
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
+
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/send"
         android:layout_width="wrap_content"
@@ -152,7 +156,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_marginBottom="40dp"
-        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
         android:visibility="gone"
         android:tint="@color/white"
         android:backgroundTint="#FF0071"

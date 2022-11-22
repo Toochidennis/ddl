@@ -10,9 +10,8 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context=".ExamActivity"
     tools:showIn="@layout/activity_exam">
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
+
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
@@ -42,7 +41,7 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:orientation="vertical"
                     android:layout_marginLeft="8dp"
                     android:layout_marginRight="8dp"
@@ -59,7 +58,7 @@
                 android:id="@+id/exam_submit"
                 android:layout_width="match_parent"
                 android:layout_marginTop="30dp"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content">
                 <LinearLayout
                     android:id="@+id/score_layout"
                     android:layout_width="match_parent"
@@ -69,7 +68,6 @@
                     android:orientation="vertical">
                 <LinearLayout
                     android:layout_marginTop="16dp"
-                    android:layout_centerHorizontal="true"
                     android:gravity="center"
                     android:layout_width="120dp"
                     android:layout_height="120dp"
@@ -85,8 +83,7 @@
                         android:text="56"
                         android:gravity="center"
                         android:textColor="@color/white"
-                        android:textStyle="bold"
-                        android:layout_below="@+id/submit_text"/>
+                        android:textStyle="bold" />
                     <TextView
                         android:fontFamily="sans-serif-condensed"
                         android:id="@+id/submit_text"
@@ -106,8 +103,7 @@
                         android:gravity="center"
                         android:layout_marginTop="5dp"
                         android:textColor="@color/white"
-                        android:textStyle="bold"
-                        android:layout_below="@+id/submit_text"/>
+                        android:textStyle="bold" />
 
                 </LinearLayout>
 
@@ -122,8 +118,7 @@
                     android:layout_marginTop="15dp"
                     android:text="This assessment score is based solely on the objective questions."
                     android:textColor="@color/black"
-                    android:textStyle="bold"
-                    android:layout_below="@+id/submit_ll"/>
+                    android:textStyle="bold" />
                 </LinearLayout>
 
                 <RelativeLayout
@@ -146,6 +141,7 @@
                         android:paddingRight="15dp"
                         android:onClick="viewResult"  />
                 </RelativeLayout>
+
                 <Button
                     android:id="@+id/vRes"
                     android:layout_below="@+id/an_test1"
@@ -162,15 +158,17 @@
 
             </RelativeLayout>
         </ScrollView>
+
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:visibility="gone"
             android:layout_marginTop="15dp"
             android:id="@+id/exam_introduction">
+
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content">
 
                 <TextView
                     android:id="@+id/intro_exam_name"
@@ -183,6 +181,7 @@
                     android:textColor="@color/black"
                     android:textSize="20sp"
                     android:textStyle="bold" />
+
                 <TextView
                     android:fontFamily="sans-serif-condensed"
                     android:id="@+id/exam_name"
@@ -234,6 +233,7 @@
                     android:background="@android:color/transparent"
                     android:layout_marginTop="20dp"
                     android:layout_centerHorizontal="true">
+
                     <Button
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -275,14 +275,14 @@
                 android:background="@android:color/transparent"
                 android:layout_centerHorizontal="true">
                 <Button
-                    android:id="@+id/myclick"
+                    android:id="@+id/submitBtn"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Submit"
                     android:background="@drawable/button2"
                     android:textColor="@color/amberG"
                     android:textSize="16sp"
-                    android:paddingRight="8dp"
+                    android:paddingEnd="8dp"
                     android:onClick="check" />
             </RelativeLayout>
 
@@ -293,7 +293,7 @@
                 android:layout_height="35dp"
                 android:src="@drawable/fw"
                 android:layout_centerVertical="true"
-                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
                 android:background="@drawable/circlefwd"
                 android:onClick="next"/>
 

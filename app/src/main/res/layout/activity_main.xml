@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -8,19 +8,31 @@
     tools:context=".Activities.MainActivity"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="#FFFF"
-    >
+    android:background="@color/white">
 
-
-    <ImageView
-
-        android:id="@+id/logo"
+    <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/winschool"
-        />
+        android:id="@+id/logo_holder"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp"
+        android:layout_alignParentEnd="true">
 
-    <TextView
+
+        <ImageView
+
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/winschool"
+            />
+
+
+    </RelativeLayout>
+
+
+  <!--  <TextView
         android:visibility="gone"
         android:id="@+id/linkskool_text"
         android:layout_width="wrap_content"
@@ -29,5 +41,32 @@
         android:fontFamily="@font/kalam"
         android:text="@string/linkskool"
         android:textSize="50dp"
-        android:textStyle="bold" />
-</LinearLayout>
+        android:textStyle="bold" />-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/power_txt"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/la_to"
+            android:text="Powered by Wins School"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center_horizontal"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

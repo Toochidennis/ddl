@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:clickable="true"
     app:cardCornerRadius="10dp"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:focusable="true">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -23,8 +23,8 @@
                 android:layout_height="wrap_content"
                 android:text="1."
                 android:textStyle="bold"
-                android:layout_marginLeft="5dp"
-                android:layout_marginRight="3dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="3dp"
                 android:fontFamily="@font/open_sans"
                 />
             <EditText
@@ -52,17 +52,17 @@
                 android:layout_height="18dp"
                 android:layout_centerVertical="true"
                 android:src="@drawable/ic_date1"
-                android:layout_marginRight="5dp"
+                android:layout_marginEnd="5dp"
                 />
             <TextView
                 android:id="@+id/question_type"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_toRightOf="@id/desc_logo"
+                android:layout_toEndOf="@id/desc_logo"
                 android:text="Date"
-                android:textSize="10sp"
+                android:textSize="11sp"
                 android:layout_centerVertical="true"
-                android:fontFamily="@font/lato"
+                android:fontFamily="@font/la_to"
                 />
             <Button
                 android:id="@+id/apply"

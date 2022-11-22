@@ -59,11 +59,10 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:src="@drawable/ic_edit"
-                            android:tint="@color/gray"
                             android:visibility="gone"
                             android:layout_alignParentEnd="true"
                             android:layout_marginRight="20dp"
-                            />
+                            card_view:tint="@color/gray" />
                     </RelativeLayout>
 
                 <TextView

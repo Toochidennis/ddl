@@ -7,16 +7,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".Activities.Assessment">
+
     <androidx.appcompat.widget.Toolbar
-        xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/toolbar"
         app:titleTextColor="@color/black"
-
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        >
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
     </androidx.appcompat.widget.Toolbar>
 
@@ -44,7 +41,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="0.5dp"
-        android:background="@color/ligth_gray"
+        android:background="@color/light_gray"
         android:layout_marginRight="20dp"
         android:layout_marginTop="40dp"
         android:layout_marginLeft="20dp"/>
@@ -67,7 +64,7 @@
                 android:text="Questions"
                 android:textSize="18sp"
                 android:textColor="@android:color/black"
-                android:fontFamily="@font/lato"
+                android:fontFamily="@font/la_to"
                 />
             <TextView
                 android:id="@+id/question_total"
@@ -89,7 +86,7 @@
             android:layout_height="match_parent"
             android:layout_marginTop="5dp"
             android:layout_marginBottom="5dp"
-            android:background="@color/ligth_gray"
+            android:background="@color/light_gray"
 
            />
         <LinearLayout
@@ -105,7 +102,7 @@
                 android:text="Duration"
                 android:textSize="18sp"
                 android:textColor="@android:color/black"
-                android:fontFamily="@font/lato"
+                android:fontFamily="@font/la_to"
                 />
             <TextView
                 android:id="@+id/assessment_duration"
@@ -127,7 +124,7 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="0.5dp"
-        android:background="@color/ligth_gray"
+        android:background="@color/light_gray"
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"/>
 
@@ -166,9 +163,8 @@
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 android:scaleType="fitXY"
-                android:tint="@android:color/white"
                 android:src="@drawable/ic_library_books_black_24dp"
-                />
+                app:tint="@android:color/white" />
         </androidx.cardview.widget.CardView>
             <TextView
                 android:layout_width="wrap_content"
@@ -198,9 +194,8 @@
                     android:layout_width="20dp"
                     android:layout_height="20dp"
                     android:scaleType="fitXY"
-                    android:tint="@android:color/white"
                     android:src="@drawable/ic_time"
-                    />
+                    app:tint="@android:color/white" />
             </androidx.cardview.widget.CardView>
             <TextView
                 android:layout_width="wrap_content"

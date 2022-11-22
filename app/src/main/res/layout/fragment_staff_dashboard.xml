@@ -33,7 +33,7 @@
                         android:layout_height="wrap_content"
                         android:text="Welcome"
                         android:layout_margin="5dp"
-                        android:fontFamily="@font/lato"
+                        android:fontFamily="@font/la_to"
                         android:textColor="@android:color/white"/>
                     <LinearLayout
                         android:layout_width="match_parent"

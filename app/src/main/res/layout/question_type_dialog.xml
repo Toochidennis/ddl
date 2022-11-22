@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_margin="20dp"
@@ -41,7 +42,7 @@
         android:focusable="true"
         >
         <ImageView
-            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_long_ans"/>
@@ -76,16 +77,16 @@
             android:layout_marginLeft="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:tint="@color/gray"
             android:layout_marginTop="5dp"
-            android:src="@drawable/ic_email_white"/>
+            android:src="@drawable/ic_email_white"
+            app:tint="@color/gray" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/montserrat"
             android:text="Email"
-            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
             android:textColor="@color/gray"
             android:textSize="14sp" />
 
@@ -135,8 +136,8 @@
             android:layout_marginLeft="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:tint="@color/gray"
-            android:src="@drawable/ic_multichoice"/>
+            android:src="@drawable/ic_multichoice"
+            app:tint="@color/gray" />
 
         <TextView
             android:layout_width="wrap_content"

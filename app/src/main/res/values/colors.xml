@@ -7,7 +7,7 @@
     <color name="blue">#033876</color>
     <color name="ligth_blue">@color/blue</color>
     <color name="gray">#808080</color>
-    <color name="ligth_gray">#D4D4D4</color>
+    <color name="light_gray">#D4D4D4</color>
     <color name="white">#fff</color>
     <color name="color1">#7719AA</color>
     <color name="color2">#DC3C00</color>

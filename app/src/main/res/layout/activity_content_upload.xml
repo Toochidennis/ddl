@@ -175,8 +175,8 @@
                                     <ImageView
                                         android:layout_width="48dp"
                                         android:layout_height="48dp"
-                                        android:tint="@color/white"
-                                        android:src="@drawable/ic_file_upload"/>
+                                        android:src="@drawable/ic_file_upload"
+                                        app:tint="@color/white" />
                                 </LinearLayout>
 
                             </LinearLayout>
@@ -245,8 +245,8 @@
                                     <ImageView
                                         android:layout_width="48dp"
                                         android:layout_height="48dp"
-                                        android:tint="@color/white"
-                                        android:src="@drawable/ic_file_download"/>
+                                        android:src="@drawable/ic_file_download"
+                                        app:tint="@color/white" />
                                 </LinearLayout>
 
                             </LinearLayout>
@@ -279,8 +279,8 @@
                                     <ImageView
                                         android:layout_width="48dp"
                                         android:layout_height="48dp"
-                                        android:tint="@color/white"
-                                        android:src="@drawable/ic_file_upload"/>
+                                        android:src="@drawable/ic_file_upload"
+                                        app:tint="@color/white" />
                                 </LinearLayout>
 
                             </LinearLayout>

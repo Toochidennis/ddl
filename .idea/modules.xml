@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/linkschool-main.iml" filepath="$PROJECT_DIR$/.idea/linkschool-main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/linkschool-main.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/linkschool-main.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/linkschool-main.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/linkschool-main.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/linkschool-main.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/linkschool-main.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/linkschool-main.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/linkschool-main.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/linkschool.iml" filepath="$PROJECT_DIR$/.idea/modules/linkschool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/linkschool.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/linkschool.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/linkschool.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/linkschool.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/linkschool.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/linkschool.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/linkschool.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/linkschool.app.unitTest.iml" />
     </modules>
   </component>
 </project>

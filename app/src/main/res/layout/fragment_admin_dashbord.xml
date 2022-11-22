@@ -9,7 +9,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Fragments.AdminDashbordFragment">
     <androidx.appcompat.widget.Toolbar
-        xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:id="@+id/toolbar"
@@ -35,9 +34,7 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="180dp"
-                    android:background="@drawable/bg_drawable"
-
-                    >
+                    android:background="@drawable/bg_drawable">
 
                     <TextView
                         android:id="@+id/user_name"
@@ -46,7 +43,7 @@
                         android:fontFamily="@font/open_sans"
                         android:text="Welcome "
                         android:layout_marginTop="12dp"
-                        android:layout_marginLeft="15dp"
+                        android:layout_marginStart="15dp"
                         android:textColor="@android:color/white"
                         android:textSize="14sp" />
 
@@ -54,12 +51,12 @@
                         android:id="@+id/school_name_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:fontFamily="@font/lato"
-                        android:textColor="@android:color/white"
-                        android:textAlignment="center"
-                        android:text="Raymond College, Enugu"
                         android:layout_centerInParent="true"
-                        android:textSize="25sp"/>
+                        android:fontFamily="@font/la_to"
+                        android:text="Raymond College, Enugu"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/white"
+                        android:textSize="25sp" />
                 </RelativeLayout>
 
                 <androidx.cardview.widget.CardView
@@ -245,6 +242,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/add_question"
             android:layout_width="wrap_content"

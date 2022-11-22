@@ -4,35 +4,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fragments.AdminElearning"
-    android:orientation="vertical"
-    >
+    tools:context=".Fragments.AdminELearning"
+    android:orientation="vertical">
+
     <androidx.appcompat.widget.Toolbar
-        xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:id="@+id/toolbar"
         android:background="@drawable/bg_drawable"
-        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
-        >
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
     </androidx.appcompat.widget.Toolbar>
+
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            >
+            android:orientation="vertical">
 
     <LinearLayout
         android:id="@+id/t"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:orientation="vertical"
-        android:background="@drawable/bg_drawable"
-        >
+        android:background="@drawable/bg_drawable">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -41,16 +40,18 @@
             android:textSize="16sp"
             android:layout_marginTop="20dp"
             android:fontFamily="@font/montserrat"
-            android:layout_marginLeft="10dp"
-            android:layout_marginBottom="5dp"
-            />
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="5dp" />
+
     </LinearLayout>
+
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/e_learning_levels"
+      android:id="@+id/e_learning_level_recycler"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="50dp"
-        />
+        android:layout_marginBottom="50dp" />
+
         </LinearLayout>
+
     </androidx.core.widget.NestedScrollView>
 </LinearLayout>

@@ -32,9 +32,7 @@
                 android:layout_height="80dp"
                 android:orientation="vertical"
                 android:gravity="center_vertical"
-                android:background="@drawable/bg_drawable"
-
-                >
+                android:background="@drawable/bg_drawable">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -55,9 +53,13 @@
             android:clipToPadding="false">
 
         </androidx.recyclerview.widget.RecyclerView>
+
             </LinearLayout>
+
             </androidx.core.widget.NestedScrollView>
+
         </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/add_course_outline"
             android:layout_width="wrap_content"
@@ -67,6 +69,7 @@
             android:backgroundTint="@color/blue"
             android:src="@drawable/ic_add" />
     </FrameLayout>
+
     <FrameLayout
         android:id="@+id/course_outline_empty_state"
         android:layout_width="match_parent"
@@ -90,8 +93,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_warning"
-                android:tint="@color/ligth_gray"
-                />
+                app:tint="@color/light_gray" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -100,6 +102,7 @@
                 android:layout_margin="20dp"/>
 
         </LinearLayout>
+
         </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:id="@+id/add_course_outline2"

@@ -66,7 +66,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_warning"
-                android:tint="@color/ligth_gray"
+                android:tint="@color/light_gray"
                 />
             <TextView
                 android:layout_width="wrap_content"
